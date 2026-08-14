@@ -49,6 +49,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           {children}
           <ViewCanvas />
         </main>
+        <script
+          async
+          defer
+          src="https://static.cdn.prismic.io/prismic.js?new=true&repo=fizzi-srd"
+        ></script>
       </body>
     </html>
   );
