@@ -18,12 +18,12 @@ const geistMono = Geist_Mono({
 const alpino = localFont({
   src: [
     {
-      path: "./fonts/Alpino-Variable.woff2",
+      path: "/../public/fonts/Alpino-Variable.woff2",
       weight: "100 900",
       style: "normal",
     },
     {
-      path: "./fonts/Alpino-Variable.woff",
+      path: "/../public/fonts/Alpino-Variable.woff",
       weight: "100 900",
       style: "normal",
     },

@@ -11,6 +11,9 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
+            "sky_dive": {
+              "type": "SharedSlice"
+            },
             "banner": {
               "type": "SharedSlice"
             }

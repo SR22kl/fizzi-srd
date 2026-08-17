@@ -4,4 +4,5 @@ import dynamic from "next/dynamic";
 
 export const components = {
   banner: dynamic(() => import("./Banner")),
+  sky_dive: dynamic(() => import("./SkyDive")),
 };
