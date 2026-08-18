@@ -106,6 +106,7 @@ const Carousel: FC<CarouselProps> = ({ slice }) => {
               floatIntensity={0.3}
               rotationIntensity={1}
               flavor={FLAVORS[currentFlavorIndex].flavor}
+              scale={1.2}
             />
           </Center>
 
