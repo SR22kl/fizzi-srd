@@ -4,6 +4,7 @@ import "./globals.css";
 import localFont from "next/font/local";
 import Header from "@/components/Header";
 import ViewCanvas from "@/components/ViewCanvas";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -54,6 +55,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           defer
           src="https://static.cdn.prismic.io/prismic.js?new=true&repo=fizzi-srd"
         ></script>
+        <Footer/>
       </body>
     </html>
   );
