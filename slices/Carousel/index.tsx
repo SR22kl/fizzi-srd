@@ -22,7 +22,7 @@ const FLAVORS: {
   color: string;
   name: string;
 }[] = [
-  { flavor: "blackCherry", color: "#A855F7", name: "Black Cherry" },
+  { flavor: "blackCherry", color: "#ed151d", name: "Black Cherry" },
   { flavor: "grape", color: "#572981", name: "Grape Goodness" },
   { flavor: "lemonLime", color: "#164405", name: "Lemon Lime" },
   {
@@ -84,8 +84,8 @@ const Carousel: FC<CarouselProps> = ({ slice }) => {
       data-slice-variation={slice.variation}
       className="carousel relative grid h-screen grid-rows-[auto,4fr,auto] justify-center overflow-hidden bg-white py-12 text-white"
     >
-      <div className="background pointer-events-none absolute inset-0 bg-purple-500 opacity-50" />
-      <WavyCircles className="absolute left-1/2 top-1/2 h-[120vmin] -translate-x-1/2 -translate-y-1/2 text-purple-500" />
+      <div className="background pointer-events-none absolute inset-0 bg-[#ed151d] opacity-50" />
+      <WavyCircles className="absolute left-1/2 top-1/2 h-[120vmin] -translate-x-1/2 -translate-y-1/2 text-[#ed151d]" />
 
       <h2 className="relative text-center text-5xl font-bold">
         <PrismicText field={slice.primary.heading} />
